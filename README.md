@@ -15,14 +15,20 @@ You need to download [yarn](https://yarnpkg.com/) in order to run commands via c
 You can see all the scripts in `package.json`.
 
 `yarn start` - Run the server.
+
 `yarn dev` - Run the development server.
+
 `yarn build` - Compile TypeScript.
 
 ## Resources (.env file)
 
 `MONGODB_URL` - [Your MongoDB database url](https://www.mongodb.com/basics/create-database)
+
 `DISCORD_CLIENT_ID` - [Your bot ID](https://discord.com/developers/applications)
+
 `DISCORD_CLIENT_SECRET` - Your client secret (Choose your application [here](https://discord.com/developers/applications) -> OAuth2)
+
 `BOT_TOKEN` - Your bot token.
+
 
 You should also visit your application -> OAuth2 -> Add a new redirct URI and paste this -> http://localhost:3000/api/auth/discord/redirect.
