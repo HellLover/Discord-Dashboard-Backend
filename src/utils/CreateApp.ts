@@ -14,7 +14,7 @@ export function createApp(): Express {
     app.use(cors({ origin: ["http://localhost:3000"], credentials: true }))
     app.use(
         session({
-           secret: "YouHave0IQ",
+           secret: "YouHave0IQ", // Change this
            resave: false,
            saveUninitialized: false,
            cookie: { maxAge: 60 * 60 * 24 * 7 * 1000 }, // 1 week
