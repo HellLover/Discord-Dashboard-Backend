@@ -4,9 +4,9 @@ You need to download [yarn](https://yarnpkg.com/) in order to run commands via c
 
 ## Getting started
 
-`1.` Clone this repository;
-`3.` Check the `.env.example` file then replace the details with your own (You can see them below);
-`4.` Run `yarn dev` to run the development server on port 3000.
+`1.` Clone this repository;\n
+`2.` Check the `.env.example` file then replace the details with your own (You can see them below);\n
+`3.` Run `yarn dev` to run the development server on port 3000.
 
 ## Scripts
 
